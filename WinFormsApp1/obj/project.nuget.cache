@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XTOcm6FqfZ2OfQIkF2BnFLfSyE+zH6JwhQe4BDy0b9mCIiPz/5h4AEWLsBTAIj9z9A/wodxlWbfJUrjLtaHhHw==",
+  "success": true,
+  "projectFilePath": "Q:\\WorkSpace\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin.NGUYENTRANQUANG\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\Admin.NGUYENTRANQUANG\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin.NGUYENTRANQUANG\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
