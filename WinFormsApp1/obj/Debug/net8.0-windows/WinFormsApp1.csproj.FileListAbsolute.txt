@@ -19,3 +19,4 @@ Q:\WorkSpace\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsA
 Q:\WorkSpace\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
 Q:\WorkSpace\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 Q:\WorkSpace\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+Q:\WorkSpace\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json

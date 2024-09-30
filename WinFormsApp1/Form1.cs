@@ -19,24 +19,32 @@ namespace WinFormsApp1
             for (var i = 0; i < txtBox.Count; i++)
             {
                 txtBox[i].TextAlign = HorizontalAlignment.Center;
+
+            }
+            UpdateGridFromTextBoxes();
+
+
+        }
+        private void UpdateGridFromTextBoxes()
+        {
+            for (int i = 0; i < txtBox.Count; i++)
+            {
                 int row = i / 9;
                 int col = i % 9;
-                if (int.TryParse(txtBox[i].Text, out int number))
+
+                if (int.TryParse(txtBox[i].Text, out int number) && number >= 1 && number <= 9)
                 {
                     grid[row, col] = number;
                 }
                 else
                 {
                     grid[row, col] = 0;
-
                 }
             }
-
-
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
+            UpdateGridFromTextBoxes();
             G = new Graph(grid);
             bool success = G.BacktrackingColoring();
             for (var i = 0; i < 81; i++)
